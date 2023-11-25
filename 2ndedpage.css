@@ -1,0 +1,140 @@
+@media screen and (min-width: 600px) {
+ body{
+    margin: 0px;
+    overflow: hidden;
+  }
+  .realname{
+    font-family:"Jua";
+    padding-left: 650px;
+    padding-top: 180px;
+  }
+  .nickname{
+    font-family:"Jua";
+    padding-left: 620px;
+    padding-top: 165px;
+  }
+  #name,
+  #username {
+    position: absolute;
+    top: 100px;
+    left: 172px;
+    width: 300px;
+    height: 50px;
+  }
+  #name{
+    top: 250px;
+    left: 590px;
+    border-color: #fff;
+    border-radius: 30px;
+    background-color:khaki;
+  }
+  #username {
+    top: 460px;
+    left: 590px;
+    border-color: #fff;
+    border-radius: 30px;
+    background-color:khaki;
+  }
+ label{
+    top:200px;
+ }
+  .macbook-pro-16-9 {
+    position: relative;
+    background-color:rgb(229, 184,96);
+    width: 100%;
+    height: 1117px;
+    overflow: hidden;
+    color: black;
+    font-size: 40px;
+    font-family:"Kalam";
+  }
+
+  .box6{
+    position: absolute;
+    bottom: 420px;
+    left: 740px;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 238, 95);
+    border-radius: 5px;
+    width: 170px;
+    height: 80px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: "Jua";
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid rgb(249, 239, 48);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.box6:hover {
+    background-color:rgb(135, 135, 43);
+    color:#fff;
+}
+.box1{
+    position: absolute;
+    top: -275.1px;
+    left: 89.3px;
+    background-color: mediumslateblue;
+    width: 397.9px;
+    height: 356.5px;
+    transform: rotate(41.38deg);
+    transform-origin: 0 0;
+    border-radius: 400px;
+}
+.box2{
+    position: absolute;
+    top: 390px;
+    left: 1318.8px;
+    background-color:rgb(221, 233, 85);
+    width: 820.7px;
+    height: 633.7px;
+    transform: rotate(42.1deg);
+    transform-origin: 0 0;
+    border-radius: 350px;
+}
+.box3{
+    position: absolute;
+    top: 550px;
+    left: 1318.8px;
+    background-color:rgb(221, 233, 85);
+    width: 820.7px;
+    height: 633.7px;
+    transform: rotate(42.1deg);
+    transform-origin: 0 0;
+  }
+  .box3{
+    top: 320px;
+    left: 230px;
+    background-color:limegreen;
+    border-radius: 300px;
+    width: 495px;
+    height: 464.5px;
+    transform: rotate(53.43deg);
+}
+.box4,
+  .box5 {
+    position: absolute;
+    top: 274.9px;
+    left: 1332px;
+    background-color:tomato;
+    border-radius: 200px;
+    width: 393px;
+    height: 393px;
+    transform: rotate(-45.22deg);
+    transform-origin: 0 0;
+  }
+  .box5{
+    top: 10px;
+    left: 692px;
+    border-radius: 150px;
+    background-color: fuchsia;
+    width: 381px;
+    height: 250px;
+    transform: rotate(-54.8deg);
+  }
+}
